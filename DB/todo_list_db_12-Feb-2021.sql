@@ -42,7 +42,7 @@ CREATE TABLE `app_user` (
 /*Data for the table `app_user` */
 
 insert  into `app_user`(`id`,`first_name`,`last_name`,`email`,`gender`,`oauth_provider`,`oauth_uid`,`password`,`mobile`,`picture`,`locale`,`created`,`modified`,`is_account_verified`,`access_token`) values 
-(1,'Parvej','Ahmed','parvej35@gmail.com','','Google','101305653540934907500',NULL,NULL,'https://lh3.googleusercontent.com/a-/AOh14GjyY8sEa2rcypPVU3yJH9HzQVteaLBISfggCuPxeQ=s96-c','en','2021-02-11 17:24:00','2021-02-11 20:13:09',1,'ya29.a0AfH6SMCAB_G2V0LAagTQkIX01hmz3y2N32IHRinb67xhCo9g7xI4cqSE0m7hxABcipoWhIW8LydvIx4Zi-OOZZNBjxOTq9j21JXh36NNdGRaxC6wEY1JK3u0muj4J0K4Meg5p0zbquAse2-6tVk_YZSONEJgdYKuNapWxx646_Dzrw');
+(1,'Parvej','Ahmed','parvej35@gmail.com','','Google','101305653540934907500',NULL,NULL,'https://lh3.googleusercontent.com/a-/AOh14GjyY8sEa2rcypPVU3yJH9HzQVteaLBISfggCuPxeQ=s96-c','en','2021-02-11 17:24:00','2021-02-12 16:27:59',1,'ya29.a0AfH6SMCkdY2bjyBAxFZqYMNXi2jfWDS3TlfwAOvtw9YHp2cJwH6bIhvtHIubP-JzG2UJYV-htbRTToAYgQRxvJTcoLVvn-YLsXeOy_t13L_s3_flVWckRW30Q5DoNjhOZTgDD_CY1YE0vO14xQowch60k1edmdn5op5zOV-LT3SPbw');
 
 /*Table structure for table `tasks` */
 
@@ -59,13 +59,9 @@ CREATE TABLE `tasks` (
   `is_active` tinyint(1) NOT NULL DEFAULT 1,
   `updated_on` datetime DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 /*Data for the table `tasks` */
-
-insert  into `tasks`(`id`,`title`,`topic_id`,`app_user_id`,`created_on`,`position_id`,`status_id`,`is_active`,`updated_on`) values 
-(2,'Aiyan',0,1,'2021-02-11 21:10:32',1,1,0,'2021-02-11 21:12:00'),
-(3,'Aiyan',4,1,'2021-02-11 21:32:28',1,1,1,NULL);
 
 /*Table structure for table `topic` */
 
@@ -79,15 +75,9 @@ CREATE TABLE `topic` (
   `is_active` tinyint(1) NOT NULL DEFAULT 1,
   `updated_on` datetime DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 /*Data for the table `topic` */
-
-insert  into `topic`(`id`,`title`,`app_user_id`,`created_on`,`is_active`,`updated_on`) values 
-(1,'Junklie',1,'2021-02-11 21:07:15',1,NULL),
-(2,'4SHOP',1,'2021-02-11 21:08:26',1,NULL),
-(3,'CityServ',1,'2021-02-11 21:08:57',1,NULL),
-(4,'iSWAP',1,'2021-02-11 21:09:08',1,NULL);
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;

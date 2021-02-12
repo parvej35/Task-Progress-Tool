@@ -34,10 +34,9 @@
     <style>
 
         .container-scroller {
-            background-image: url("images/login-bg-5.jpg"); /* The image used */
+            background-image: url("images/background.jpg"); /* The image used */
             background-color: #cccccc; /* Used if the image is unavailable */
             height: auto; /* You must set a specified height */
-            /*background-position: center; !* Center the image *!*/
             background-repeat: no-repeat; /* Do not repeat the image */
             background-size: cover; /* Resize the background image to cover the entire container */
         }

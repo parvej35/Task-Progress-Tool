@@ -181,10 +181,10 @@
         modal.addFooterBtn('Save Topic', 'tingle-btn tingle-btn--primary tingle-btn--pull-right', function() {
 
             var result = createTopic();
-            if(result === "true") {
+            //if(result === "true") {
                 modal.close();
                 location.reload();
-            }
+           // }
 
         });
 

@@ -139,7 +139,11 @@ function createTodo() {
 
   var result = "false";
 
-  if(input_val.trim() === "") {
+  if(topic_id === "") {
+
+    alert("Select topic");
+
+  } else if(input_val.trim() === "") {
 
     alert("Enter Task Description");
 

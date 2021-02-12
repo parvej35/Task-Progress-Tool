@@ -16,6 +16,6 @@ Now, let’s start the implementation this project, consider the following steps
 # Run the project
 http://localhost:8081/TASK_PROGRESS_TOOL/login.php
 
-https://github.com/parvej35/task-progress-tool/blob/main/images/snapshoot/Screenshot_1.png
-https://github.com/parvej35/task-progress-tool/blob/main/images/snapshoot/Screenshot_2.png
-https://github.com/parvej35/task-progress-tool/blob/main/images/snapshoot/Screenshot_3.png
+![Screenshot] https://github.com/parvej35/task-progress-tool/blob/main/images/snapshoot/Screenshot_1.png
+![Screenshot] https://github.com/parvej35/task-progress-tool/blob/main/images/snapshoot/Screenshot_2.png
+![Screenshot] https://github.com/parvej35/task-progress-tool/blob/main/images/snapshoot/Screenshot_3.png
